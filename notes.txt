@@ -1,0 +1,4 @@
+brownie networks add Ethereum ganache-local host=http://127.0.0.1:8545 chainid=1337
+    -> How to add a new network to brownie so that deployments are saved in our build/deployments folder
+
+brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://127.0.0.1 fork='https://mainnet.infura.io/v3/$Web3_INFURA_PROJECT_ID' accounts=10 mnemonic=brownie port=8545
